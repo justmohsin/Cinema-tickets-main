@@ -86,11 +86,13 @@ seatREservationService.reserve(noOfChildTicket, noOfAdultTicket)
 
 The above algo is implmented in **${\color{red}TicketServiceImpl.java}$** class and ${\color{red}accountId}$ with ${\color{red}totalAmount}$ sent to ticketPaymentService interface via makePayment method.  
 
-***ticketPaymentService.makePayment(accountId, totalAmount);***
+**ticketPaymentService.makePayment(accountId, totalAmount);**
 
 Also, number of tickets and seats to resver sent to seat resver interface via reserve seat method.
 
 **seatReservationService.reserveSeat(noOfChildTicket, noOfAdultTicket);**
+
+***The Above alogrithme is implemented in  TicketServiceImpl.java and the test class created under test/java/uk.dwp.uc.pairtest/TicketServiceImpltest.java***
 
 
 
